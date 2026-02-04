@@ -81,8 +81,6 @@ def get_worker_class(model_name: str):
         return LLavaWorker
     elif "pixtral" in model_lower:
         return PixtralWorker
-    elif "phi3" in model_lower:
-        return XGenWorker
     
     raise ValueError(f"Unsupported model: {model_name}")
 
