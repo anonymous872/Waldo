@@ -1,3 +1,13 @@
+"""
+SPDX-License-Identifier: BSD-3-Clause
+
+This implementation of Real-ESRGAN is based on the Real-ESRGAN implementation by https://github.com/ai-forever.
+Original repository: https://github.com/ai-forever/Real-ESRGAN
+
+Modifications made by Anonymous876, 2026.
+"""
+
+
 import os
 import torch
 from torch.nn import functional as F
